@@ -7,7 +7,7 @@ import pandas as pd
 
 st.title("진주시 CCTV 현황")
 
-df = pd.read_csv("/workspaces/test20250602-1/경상남도 진주시_CCTV위치정보_20250501.csv", encoding='cp949')
+df = pd.read_csv("경상남도 진주시_CCTV위치정보_20250501.csv", encoding='cp949')
 
 st.dataframe(df, height=200)
 
